@@ -35,8 +35,10 @@ This repository sets up:
 
 ```sh
 export AWS_DEFAULT_REGION=us-east-1
+
 pip install -r requirements.txt
 
+# run below script to execute terraform and ansible
 ./deploy.sh
 ```
 
